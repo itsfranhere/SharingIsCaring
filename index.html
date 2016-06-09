@@ -21,7 +21,7 @@
 	<link href="css/custom.css" rel="stylesheet">
 	
 	<!-- Google xwFonts -->
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quattrocento+Sans" />
 
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
@@ -39,44 +39,23 @@
 	<![endif]-->
 </head>
 <body>
-	<!-- Demo content -->			
 
-	<div class="entry-header">
-
-		<nav class="back-link">
-			<!--span class="nav-previous"><a href="http://ihatetomatoes.net/create-css3-spinning-preloader/" rel="prev"><span class="meta-nav">&larr;</span> Back to tutorial</a></span-->
-		</nav><!-- .nav-single -->
-	</div>
-	<div id="loader-wrapper">
-		<div id="loader"></div>
-		<div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
-	</div>
-
-	<div id="demo-bar"></div>
-	
-	<!--<div class="row no-gutter">
-		<div class="col-md-12">
-			<div id="large-header" class="large-header demo-3">
-                <canvas id="demo-canvas"></canvas>
-                <h1 class="main-title">WE SUPPORT INDIA</h1>
-                <img src="img/logo.png">
-            </div>
-      	</div>
-    </div>-->
 	
 	<div class="row no-gutter">
 		<div class="col-md-12">
-		   	<section class="intro" id="intro1">
-			    <div class="col-md-6 col-sm-offset-6">
-			    	<div class="wrapper">
-			        	<div class="animation-element zoom testimonials">	
-				        	<h2>I'M AJITI, I'M 9</h2>
-				        	<p>I don't how to read and write</p>
-				        </div>	
+
+			<section class="intro spacebetween" id="intro1">
+				<div class="col-md-12">
+					<div class="first">
+						<div class="wrapper">
+							<h2 class="lft">I'M AJITI, I'M 9</h2>
+							<p class="rght">I don't know how to read and write</p>
+						</div>
 				    </div>
-			    </div>
+				</div>
 			</section>
+
+			<a href="#intro2"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
 
 			<!--<div class="row no-gutter">
 				<div class="col-md-12">
@@ -84,17 +63,22 @@
 				</div>
 			</div>-->
 
-			<section class="intro" id="intro2">
-				<div class="wrapper">
-					<h1>I live right here - Kolkata</h1>
-					<span>There are many other children in the same situation as me.</span>
-					<!--img src="svg/map.svg" alt="Kiwi standing on oval"-->
-					<!--img src="svg/locationalert.svg" alt="Kiwi standing on oval"-->
-					<!--div class="animation-element slide-left testimonials"-->
-					<!--img src="svg/points.svg" alt="Kiwi standing on oval"-->
-					<div class="animation-element slide-left late">
-						<img src="svg/kolkata-map.svg" alt="Kiwi standing on oval">
-					</div>	
+			<section class="intro spacebetween" id="intro2">
+				<div class="col-md-12">
+					<div class="first">
+						<div class="content">
+							<h1>I live right here - Kolkata</h1>
+							<p>There are many other children in the same situation as me.</p>
+							<img class="map" src="svg/india-map.svg" alt="india">
+						</div>
+						<!--img src="svg/map.svg" alt="Kiwi standing on oval"-->
+						<!--img src="svg/locationalert.svg" alt="Kiwi standing on oval"-->
+						<!--div class="animation-element slide-left testimonials"-->
+						<!--img src="svg/points.svg" alt="Kiwi standing on oval"-->
+						<div class="animation-element slide-left late">
+							<img class="point" src="svg/kolkata-map.svg" alt="Kiwi standing on oval">
+						</div>	
+					</div>
 				</div>
 				<!--span>Ranchi</span-->
 				<!--h2>I live right here!</h2-->
@@ -102,6 +86,8 @@
 					<p style="color:black">there's many other people in the same situation</p>
 				</div--> 
 			</section>
+		
+			<a href="#intro3"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
 
 			<section class="intro spacebetween" id="intro3">
 				<div class="col-md-6">
@@ -112,12 +98,14 @@
 				<div class="col-md-6">
 					<div class="last">
 						<div class="center">
-							<h2>India has 440 million children.</h2>
-							<span>That's more than the entire population of North America (USA, Mexico and Canada put together). Every fifth child in the world is Indian.</span>
+							<h2>India has 440 million children.</h2><span>That's more than the entire population of North America (USA, Mexico and Canada put together). Every fifth child in the world is Indian.</span>
 						</div>
 					</div>
 				</div>
 			</section>
+			
+			<a href="#intro1"><i class="fa fa-arrow-circle-up gray" aria-hidden="true"></i></a>
+			<a href="#intro4"><i class="fa fa-arrow-circle-down gray" aria-hidden="true"></i></a>
 
 			<section class="intro spacebetween" id="intro4">
 				<div class="col-md-6">
@@ -131,6 +119,9 @@
 					</div>
 				</div>
 			</section>
+			
+			<a href="#intro3"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+			<a href="#intro5"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
 
 			<section class="intro spacebetween" id="intro5">
 				<div class="col-md-6">
@@ -147,6 +138,9 @@
 					</div>
 				</div>
 			</section>
+			
+			<a href="#intro4"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+			<a href="#intro6"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
 
 			<section class="intro spacebetween" id="intro6">
 				<div class="col-md-6">
@@ -163,11 +157,14 @@
 					</div>
 				</div>
 			</section>
+			
+			<a href="#intro5"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+			<a href="#intro7"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
 
 			<section class="intro spacebetween" id="intro7">
 				<div class="col-md-6">
 					<div class="first">
-						<h2 class="center">I would feel so much better if I could have a brighter future.</h2>
+						<h2 class="center">Sometimes I would like to be a normal kid without any responsabilities.</h2>
 					</div>
 				</div>	
 				<div class="col-md-6">
@@ -179,6 +176,9 @@
 					</div>
 				</div>
 			</section>
+			
+			<a href="#intro6"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+			<a href="#intro8"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
 
 			<section class="intro spacebetween" id="intro8">
 				<div class="col-md-6">
@@ -193,6 +193,9 @@
 				</div>
 			</section>
 
+			<a href="#intro7"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+			<a href="#intro9"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
+
 			<section class="intro spacebetween" id="intro9">
 				<div class="col-md-6">
 					<div class="first">
@@ -201,66 +204,127 @@
 				</div>	
 				<div class="col-md-6">
 					<div class="last">
-						<h2 class="center">This detailed research on over 12,000 children produced some shocking conclusions: Two thirds of children are victims of physical abuse. The majority are beaten in school, and over half have to work seven days a week. Over 50% have faced some kind of sexual abuse, and over 20% of them severe abuse. Half of children also face emotional abuse.</h2>
+						<div class="center">
+							<h2>Two thirds of children are victims of physical abuse.</h2><span>The majority are beaten in school, and over half have to work seven days a week. Over 50% have faced some kind of sexual abuse, and over 20% of them severe abuse. Half of children also face emotional abuse.</span>
+						</div>
 					</div>
 				</div>
 			</section>
+
+			<a href="#intro8"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+			<a href="#intro10"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
 
 			<section class="intro spacebetween" id="intro10">
-
+				<div class="col-md-12">
+					<div class="first">
+						<div class="center">
+							<h2>SUPPORT MY EDUCATION</h2>
+							<span>All you need to do is donate 1£, <br/>and you'll make all the diference.</span>
+						</div>
+					</div>
+				</div>	
 			</section>
+			
+			<a href="#intro9"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+			<a href="#intro11"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
 
-			<section class="intro spacebetween" id="intro11">
-
-			</section>
-
-			<section class="intro" id="intro12">
-				<div class="wrapper">
-					<h2>PLEASE SUPPORT<br/>MY EDUCATION</h2>
-					<img src="svg/book1.svg" alt="Kiwi standing on oval">
-					<img src="svg/boy.svg" alt="Kiwi standing on oval">
-					<img src="svg/book2.svg" alt="Kiwi standing on oval">
-					<div class="animation-element zoom">
-						<!--img src="svg/baloon.svg" alt="Kiwi standing on oval"-->
+			<section class="intro" id="intro11">
+				<div class="col-md-12">
+					<div class="first">
+						<div class="top-center">
+							<h2>How would you feel if it was your child? <br/>Don’t be indifferent.</h2>
+						</div>
 					</div>
 				</div>
 			</section>
-			
-			<section class="intro" id="intro13">
-				<div class="wrapper center">
-					<h2>How would you feel if was your child? Don’t be indifferent!</h2>
+
+			<a href="#intro10"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+			<a href="#intro12"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
+
+			<section class="intro" id="intro12">
+				<div class="col-md-6">
+					<div class="first">
+						<div class="center width100">
+							<h2>You can change my life completely. <br/>A smile is worth a thousand words.</h2>
+						</div>
+					</div>
 				</div>
 			</section>
+
+			<a href="#intro12"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+			<a href="#intro13"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
+
+			<section class="intro" id="intro13">
+				<div class="col-md-12">
+					<div class="first">
+						<div class="wrapper center">
+							<h2>Just because it's not happening here, it doesn't mean it's not happening.</h2>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<a href="#intro12"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+			<a href="#intro14"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
 
 			<section class="intro" id="intro14">
-				<div class="wrapper center">
-					<h2>You can change my life completely. A smile is worth a thousand words.</h2>
-				</div>
-			</section>
-
-			<section class="intro" id="intro15">
-				<div class="wrapper center">
-					<h2>Just because it's not happening here, it doesn't mean it's not happening.</h2>
-				</div>
-			</section>
-
-			<section class="intro" id="intro16">
-				<div class="wrapper center">
-					<h2>Giving brings us closer to creating the world we would want to live in.</h2>
-					<div class="animation-element slide-left">
-						<img src="svg/heart.svg" alt="Kiwi standing on oval">
-						<em>Be bold enough to support me</em>
+				<div class="col-md-12">
+					<div class="first">
+						<div class="wrapper center">
+							<h2>Giving brings us closer to creating the world we would want to live in.</h2>
+							<div class="animation-element slide-left">
+								<h3>Be bold enough to support me</h3>
+								<img src="svg/heart.svg" alt="Kiwi standing on oval">
+							</div>
+						</div>
 				    </div>
 				</div>
 			</section>
 
-			<section class="intro" id="intro17">
-				<div class="wrapper center">
-					<h2>Testimonials</h2>
-					<i class="fa fa-arrow-down"></i><br/>
-					<input type="button" class="button" value="DONATE">
+			<a href="#intro13"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+			<a href="#intro15"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
+
+			<section class="intro" id="intro15">
+				<div class="col-md-12">
+					<div class="first">
+						<div class="center cl-effect-13">
+							<h1 class="box">WE SUPPORT INDIA</h1>
+							<h2>Make someone's life easier</h2>
+							<a href="">DONATE 1£</a><br/><br/>
+							<div class="animation-element slide-left">
+								<em></em>
+							</div>
+						</div>
+				    </div>
 				</div>
 			</section>
+
+			<a href="#intro14"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+			<a href="#last"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
+			
+			<section class="intro" id="intro16">
+				<div class="col-md-12">
+					<div class="first">
+						<div class="center">
+							<h1>Testimonials</h1>
+							<div class="col-md-6 extra-padding">
+								<h2>Philip Grunt</h2>
+								<p>It makes me proud, knowing that I have made someone happy by donating as little as 1£.
+								"Giving brings us closer to creating the world we would want to live in.”</p>
+								<img src="img/testimonial1.jpg" alt="Testimonial">
+							</div>
+							<div class="col-md-6 extra-padding">
+								<h2>Catherine Johnson</h2>
+								<p>What a fantastic experience, sharing our compassion with others. I’m sure there’s a lot of other children that needs our support, so I’ll keep moving mountains.</p>
+								<img src="img/testimonial2.jpg" alt="Testimonial">
+							</div>
+						</div>
+				    </div>
+				</div>
+			</section>
+
+			<a id="last" class="less-padding" href="#intro15"><i class="fa fa-arrow-circle-up gray" aria-hidden="true"></i></a>
+
 		</div>
 	</div>
 
@@ -268,6 +332,8 @@
 
 	<!-- LOAD JS LIBRARIES -->
 	<script src="js/lib/jquery-2.1.1.min.js"></script>
+	<script src="js/lib/vendor/modernizr-2.6.2.min.js"></script>
+	<script src="js/lib/greensock/TweenMax.min.js"></script>
 
 	<!-- LOAD FRAMEWORK -->
 	<script src="js/bootstrap.min.js"></script>
