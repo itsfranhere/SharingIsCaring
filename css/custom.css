@@ -682,10 +682,23 @@
 	}
 
 	#intro12 {
-		background-color:#2d2f78;
-		background-image: url('../img/change.jpeg');
+		background-color:#ff9933;
+		background-image: url('../img/kolkata.jpg');
+	}
+
+	#intro12 h2 {
+	    color: #333;
+	    background: white;
+	    padding:20px;
 	}
 	
+	#intro12 h3 {
+	    color: white;
+	    background: #333;
+    	padding: 20px;
+ 		text-align:center;
+	}
+
 	.width100 {
 		width: 100%;
 	}
@@ -696,40 +709,28 @@
 	}
 
 	#intro14 {
-		background-color:#ff9933;
-		background-image: url('../img/kolkata.jpg');
-	}
-	
-	#intro14 h3 {
-	    color: white;
-	    background: #333;
-    	padding: 20px;
- 		text-align:center;
-	}
-
-	#intro15 {
 		background-color:#333;
 	}
 	
-	#intro15 h1 {
+	#intro14 h1 {
 	    color: white;
     	margin-bottom: 30px !important;
 	}
 
-	#intro15 input {
+	#intro14 input {
     	background: #333;
     	border: none;
     	border-bottom: 1px solid #fff;
 	}
 
-	#intro15 input:hover {
+	#intro14 input:hover {
 		border:1px solid #fff;
 		padding:20px;
 		font-size:30px;
 		transition: all 100ms linear;
 	}
 
-	#intro15 a {
+	#intro14 a {
 		color:white;
 		font-size:1.5em;
 		text-decoration:none;
@@ -737,15 +738,16 @@
 		border-bottom:1px solid #fff;
 	}
 
-	#intro15 h2 {
+	#intro14 h2 {
 		color:white;
+	    background: none;
 	}
 	
-	#intro16 {
+	#intro15 {
 		background-color:#fff;
 	}
 	
-	#intro16 p {
+	#intro15 p {
 		color:#333;
 	}
 	
